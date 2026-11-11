@@ -1,0 +1,202 @@
+[
+  {
+    "case_id": "dev-native-25-up-000",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 92500,
+    "repeat": 0,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-001",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 92501,
+    "repeat": 1,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-002",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 92502,
+    "repeat": 2,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-003",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 92503,
+    "repeat": 3,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-004",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 92504,
+    "repeat": 4,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-005",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 92505,
+    "repeat": 5,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-006",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 92506,
+    "repeat": 6,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-007",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 92507,
+    "repeat": 7,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-008",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 92508,
+    "repeat": 8,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-009",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 92509,
+    "repeat": 9,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-010",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 92510,
+    "repeat": 10,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-011",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 92511,
+    "repeat": 11,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-012",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 92512,
+    "repeat": 12,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-013",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 92513,
+    "repeat": 13,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-014",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 92514,
+    "repeat": 14,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-015",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 92515,
+    "repeat": 15,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-016",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 92516,
+    "repeat": 16,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-017",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 92517,
+    "repeat": 17,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-018",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 92518,
+    "repeat": 18,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-25-up-019",
+    "phase": "stairs",
+    "height": 0.25,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 92519,
+    "repeat": 19,
+    "heading_offset": 0.0
+  }
+]

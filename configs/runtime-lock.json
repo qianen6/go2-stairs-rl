@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "status": "GPU_PHYSX_AND_PPO_SMOKE_VERIFIED",
+  "maintenance": "historical_reproduction_stack",
+  "python": "3.11.14",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "runtime": "C:\\rl-runtimes\\go2-isaac",
+  "packages": {
+    "torch": "2.7.0+cu128",
+    "torchvision": "0.22.0+cu128",
+    "numpy": "1.26.0",
+    "isaacsim": "5.1.0.0",
+    "rsl-rl-lib": "3.1.2",
+    "tensordict": "0.11.0",
+    "mujoco": "3.3.7",
+    "packaging": "23.0"
+  },
+  "sources": {
+    "IsaacLab": {
+      "path": "C:\\rl-runtimes\\IsaacLab",
+      "commit": "37ddf626871758333d6ed89cf64ad702aef127d0",
+      "tag": "v2.3.2"
+    },
+    "unitree_rl_lab": {
+      "path": "C:\\rl-runtimes\\unitree_rl_lab",
+      "commit": "4960b84732b0c2ec593dccbfe963fda1bcd7b1e3"
+    }
+  },
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 5080 Laptop GPU",
+    "total_mib": 16302.5625,
+    "driver": "572.84",
+    "driver_modified": false
+  },
+  "tested_parallel_envs": [
+    1,
+    128,
+    512,
+    1024
+  ],
+  "selected_envs": 1024,
+  "known_metadata_conflicts": [
+    "fastapi 0.115.7 requires starlette>=0.40,<0.46; Isaac Lab pins installed starlette 0.49.1; headless PPO does not use this web stack"
+  ],
+  "freeze_sha256": "c0dc85d610f2275d243a81084c2bbea08ce6a0ca525a73118912c7c75239ea1a",
+  "asset_manifest": {
+    "repository": "https://huggingface.co/datasets/unitreerobotics/unitree_model",
+    "revision": "323e350252b9c3aee9c40acbfdad84f6ce46a5ac",
+    "files": [
+      {
+        "path": "Go2/usd/configuration/go2_description_base.usd",
+        "bytes": 18806122,
+        "sha256": "eeed42fb9e41395c47bc3fac7ff5d58625ac62f44bfa5a09cacebff83229c7a0",
+        "lfs_oid": "eeed42fb9e41395c47bc3fac7ff5d58625ac62f44bfa5a09cacebff83229c7a0"
+      },
+      {
+        "path": "Go2/usd/configuration/go2_description_physics.usd",
+        "bytes": 6829,
+        "sha256": "43800f436b3533c869f0b7774e5c70bc4291579df70a62263f808fb1a8f05505",
+        "lfs_oid": null
+      },
+      {
+        "path": "Go2/usd/configuration/go2_description_sensor.usd",
+        "bytes": 655,
+        "sha256": "d63cfa5964eb5a72b8e2a02dc89448881497717f21d76b1ec9683a92cb765a16",
+        "lfs_oid": null
+      },
+      {
+        "path": "Go2/usd/go2.usd",
+        "bytes": 1601,
+        "sha256": "fd3c8c23c97cea3208fae1ab5eeacba4ffa616fe5f1397be6c7edf4feb93f180",
+        "lfs_oid": null
+      }
+    ]
+  },
+  "install_logs": "C:\\rl-runtimes\\logs",
+  "compatibility_evidence": [
+    "https://github.com/isaac-sim/IsaacLab/discussions/5373",
+    "reports/isaac-contract.json",
+    "runs/flat-resume-smoke-seed0/status.json"
+  ]
+}

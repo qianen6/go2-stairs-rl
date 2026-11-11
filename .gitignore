@@ -1,0 +1,21 @@
+# 自己的训练和评测输出
+/runs/*
+!/runs/.gitkeep
+/reports/*
+!/reports/.gitkeep
+
+# 需要自行下载的 NVIDIA 公开模型
+/checkpoints/public_rough_go2.pt
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# 编辑器和系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

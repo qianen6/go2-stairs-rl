@@ -1,0 +1,202 @@
+[
+  {
+    "case_id": "dev-native-20-up-000",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 72000,
+    "repeat": 0,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-001",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 72001,
+    "repeat": 1,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-002",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 72002,
+    "repeat": 2,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-003",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 72003,
+    "repeat": 3,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-004",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 72004,
+    "repeat": 4,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-005",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 72005,
+    "repeat": 5,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-006",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 72006,
+    "repeat": 6,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-007",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 72007,
+    "repeat": 7,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-008",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 72008,
+    "repeat": 8,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-009",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 0.8,
+    "seed": 72009,
+    "repeat": 9,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-010",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 72010,
+    "repeat": 10,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-011",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 72011,
+    "repeat": 11,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-012",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 72012,
+    "repeat": 12,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-013",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 72013,
+    "repeat": 13,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-014",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 72014,
+    "repeat": 14,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-015",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 72015,
+    "repeat": 15,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-016",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 72016,
+    "repeat": 16,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-017",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 72017,
+    "repeat": 17,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-018",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 72018,
+    "repeat": 18,
+    "heading_offset": 0.0
+  },
+  {
+    "case_id": "dev-native-20-up-019",
+    "phase": "stairs",
+    "height": 0.2,
+    "direction": "up",
+    "speed": 1.0,
+    "seed": 72019,
+    "repeat": 19,
+    "heading_offset": 0.0
+  }
+]

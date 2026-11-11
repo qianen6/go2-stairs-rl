@@ -1,0 +1,10 @@
+STAIRS25 evaluation matrix | STAIRS25_TRAINED | e3c7421d4550 | 20 cases/cell
+   flat: completed 20/20 (95% 0.84-1.00)  clean 20  body/head contact  0  invalid 0  {'completed': 20}
+   up10: completed 20/20 (95% 0.84-1.00)  clean 20  body/head contact  0  invalid 0  {'completed': 20}
+ down10: completed 20/20 (95% 0.84-1.00)  clean 20  body/head contact  0  invalid 0  {'completed': 20}
+   up15: completed 20/20 (95% 0.84-1.00)  clean 20  body/head contact  0  invalid 0  {'completed': 20}
+ down15: completed 19/20 (95% 0.76-0.99)  clean 19  body/head contact  0  invalid 0  {'completed': 19, 'tilt': 1}
+   up20: completed 20/20 (95% 0.84-1.00)  clean 19  body/head contact  0  invalid 0  {'completed': 20}
+ down20: completed 20/20 (95% 0.84-1.00)  clean 20  body/head contact  0  invalid 0  {'completed': 20}
+   up25: completed 18/20 (95% 0.70-0.97)  clean 14  body/head contact  1  invalid 0  {'completed': 18, 'native_base_contact': 2}
+ down25: completed 20/20 (95% 0.84-1.00)  clean 20  body/head contact  0  invalid 0  {'completed': 20}

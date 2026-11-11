@@ -1,0 +1,10 @@
+STAIRS25 evaluation matrix | NVIDIA_PUBLISHED | f2aa77bf0349 | 20 cases/cell
+   flat: completed 20/20 (95% 0.84-1.00)  clean 19  body/head contact  1  invalid 0  {'completed': 20}
+   up10: completed 20/20 (95% 0.84-1.00)  clean 17  body/head contact  3  invalid 0  {'completed': 20}
+ down10: completed 20/20 (95% 0.84-1.00)  clean 20  body/head contact  0  invalid 0  {'completed': 20}
+   up15: completed 19/20 (95% 0.76-0.99)  clean  7  body/head contact  9  invalid 0  {'completed': 19, 'timeout': 1}
+ down15: completed 20/20 (95% 0.84-1.00)  clean 19  body/head contact  0  invalid 0  {'completed': 20}
+   up20: completed  3/20 (95% 0.05-0.36)  clean  3  body/head contact 15  invalid 0  {'native_base_contact': 8, 'completed': 3, 'timeout': 9}
+ down20: completed 19/20 (95% 0.76-0.99)  clean 16  body/head contact  0  invalid 0  {'completed': 19, 'native_base_contact': 1}
+   up25: completed  0/20 (95% 0.00-0.16)  clean  0  body/head contact 19  invalid 0  {'timeout': 19, 'native_base_contact': 1}
+ down25: completed 20/20 (95% 0.84-1.00)  clean 14  body/head contact  1  invalid 0  {'completed': 20}

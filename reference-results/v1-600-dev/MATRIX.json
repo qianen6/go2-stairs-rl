@@ -1,0 +1,396 @@
+{
+  "status": "MATRIX_COMPLETE",
+  "training": false,
+  "protocol": "INTERIOR_STOP_V1",
+  "checkpoint": "C:\\机械狗\\go2-stairs-baseline-dev\\runs\\stairs25-v1-public-seed0\\native\\model_599.pt",
+  "checkpoint_meta": {
+    "source_kind": "STAIRS25_TRAINED",
+    "sha256": "6410b876549c9a253f066aebd9b4c02dbc1fee50276170595128457a07288ab7",
+    "finetune_updates": 600,
+    "training_seed": 0,
+    "profile": "STAIRS25_V1",
+    "init_kind": "public",
+    "origin_sha256": "f2aa77bf0349c10ec2a00071162e37123d0cf80f3447c3989c17a618e1b24ad2",
+    "actuator_profile": "STAIRS25_V1"
+  },
+  "actuator_profile": "STAIRS25_V1",
+  "extra_flags": [],
+  "cases_per_cell": 20,
+  "start_utc": "2026-10-19T14:30:12.200682+00:00",
+  "commands": [
+    {
+      "cell": "flat",
+      "command": [
+        "C:\\rl-runtimes\\go2-isaac\\Scripts\\python.exe",
+        "-m",
+        "go2_stairs.landing_eval",
+        "--checkpoint",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\runs\\stairs25-v1-public-seed0\\native\\model_599.pt",
+        "--output",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\flat",
+        "--direction",
+        "flat",
+        "--riser-height",
+        "0.0",
+        "--count",
+        "20",
+        "--duration",
+        "30.0",
+        "--headless"
+      ],
+      "log": "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\flat.log",
+      "start_utc": "2026-10-19T14:30:12.205682+00:00",
+      "exit_status": 0,
+      "end_utc": "2026-10-19T14:30:43.619744+00:00"
+    },
+    {
+      "cell": "up10",
+      "command": [
+        "C:\\rl-runtimes\\go2-isaac\\Scripts\\python.exe",
+        "-m",
+        "go2_stairs.landing_eval",
+        "--checkpoint",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\runs\\stairs25-v1-public-seed0\\native\\model_599.pt",
+        "--output",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\up10",
+        "--direction",
+        "up",
+        "--riser-height",
+        "0.1",
+        "--count",
+        "20",
+        "--duration",
+        "30.0",
+        "--headless"
+      ],
+      "log": "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\up10.log",
+      "start_utc": "2026-10-19T14:30:43.628225+00:00",
+      "exit_status": 0,
+      "end_utc": "2026-10-19T14:31:17.648233+00:00"
+    },
+    {
+      "cell": "down10",
+      "command": [
+        "C:\\rl-runtimes\\go2-isaac\\Scripts\\python.exe",
+        "-m",
+        "go2_stairs.landing_eval",
+        "--checkpoint",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\runs\\stairs25-v1-public-seed0\\native\\model_599.pt",
+        "--output",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\down10",
+        "--direction",
+        "down",
+        "--riser-height",
+        "0.1",
+        "--count",
+        "20",
+        "--duration",
+        "30.0",
+        "--headless"
+      ],
+      "log": "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\down10.log",
+      "start_utc": "2026-10-19T14:31:17.655776+00:00",
+      "exit_status": 0,
+      "end_utc": "2026-10-19T14:31:51.047564+00:00"
+    },
+    {
+      "cell": "up15",
+      "command": [
+        "C:\\rl-runtimes\\go2-isaac\\Scripts\\python.exe",
+        "-m",
+        "go2_stairs.landing_eval",
+        "--checkpoint",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\runs\\stairs25-v1-public-seed0\\native\\model_599.pt",
+        "--output",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\up15",
+        "--direction",
+        "up",
+        "--riser-height",
+        "0.15",
+        "--count",
+        "20",
+        "--duration",
+        "30.0",
+        "--headless"
+      ],
+      "log": "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\up15.log",
+      "start_utc": "2026-10-19T14:31:51.056569+00:00",
+      "exit_status": 0,
+      "end_utc": "2026-10-19T14:32:25.338099+00:00"
+    },
+    {
+      "cell": "down15",
+      "command": [
+        "C:\\rl-runtimes\\go2-isaac\\Scripts\\python.exe",
+        "-m",
+        "go2_stairs.landing_eval",
+        "--checkpoint",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\runs\\stairs25-v1-public-seed0\\native\\model_599.pt",
+        "--output",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\down15",
+        "--direction",
+        "down",
+        "--riser-height",
+        "0.15",
+        "--count",
+        "20",
+        "--duration",
+        "30.0",
+        "--headless"
+      ],
+      "log": "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\down15.log",
+      "start_utc": "2026-10-19T14:32:25.348119+00:00",
+      "exit_status": 0,
+      "end_utc": "2026-10-19T14:32:59.658774+00:00"
+    },
+    {
+      "cell": "up20",
+      "command": [
+        "C:\\rl-runtimes\\go2-isaac\\Scripts\\python.exe",
+        "-m",
+        "go2_stairs.landing_eval",
+        "--checkpoint",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\runs\\stairs25-v1-public-seed0\\native\\model_599.pt",
+        "--output",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\up20",
+        "--direction",
+        "up",
+        "--riser-height",
+        "0.2",
+        "--count",
+        "20",
+        "--duration",
+        "30.0",
+        "--headless",
+        "--record",
+        "0"
+      ],
+      "log": "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\up20.log",
+      "start_utc": "2026-10-19T14:32:59.667301+00:00",
+      "exit_status": 0,
+      "end_utc": "2026-10-19T14:34:04.605877+00:00"
+    },
+    {
+      "cell": "down20",
+      "command": [
+        "C:\\rl-runtimes\\go2-isaac\\Scripts\\python.exe",
+        "-m",
+        "go2_stairs.landing_eval",
+        "--checkpoint",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\runs\\stairs25-v1-public-seed0\\native\\model_599.pt",
+        "--output",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\down20",
+        "--direction",
+        "down",
+        "--riser-height",
+        "0.2",
+        "--count",
+        "20",
+        "--duration",
+        "30.0",
+        "--headless",
+        "--record",
+        "0"
+      ],
+      "log": "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\down20.log",
+      "start_utc": "2026-10-19T14:34:04.624876+00:00",
+      "exit_status": 0,
+      "end_utc": "2026-10-19T14:35:03.131309+00:00"
+    },
+    {
+      "cell": "up25",
+      "command": [
+        "C:\\rl-runtimes\\go2-isaac\\Scripts\\python.exe",
+        "-m",
+        "go2_stairs.landing_eval",
+        "--checkpoint",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\runs\\stairs25-v1-public-seed0\\native\\model_599.pt",
+        "--output",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\up25",
+        "--direction",
+        "up",
+        "--riser-height",
+        "0.25",
+        "--count",
+        "20",
+        "--duration",
+        "30.0",
+        "--headless",
+        "--record",
+        "0"
+      ],
+      "log": "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\up25.log",
+      "start_utc": "2026-10-19T14:35:03.138812+00:00",
+      "exit_status": 0,
+      "end_utc": "2026-10-19T14:36:48.501068+00:00"
+    },
+    {
+      "cell": "down25",
+      "command": [
+        "C:\\rl-runtimes\\go2-isaac\\Scripts\\python.exe",
+        "-m",
+        "go2_stairs.landing_eval",
+        "--checkpoint",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\runs\\stairs25-v1-public-seed0\\native\\model_599.pt",
+        "--output",
+        "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\down25",
+        "--direction",
+        "down",
+        "--riser-height",
+        "0.25",
+        "--count",
+        "20",
+        "--duration",
+        "30.0",
+        "--headless",
+        "--record",
+        "0"
+      ],
+      "log": "C:\\机械狗\\go2-stairs-baseline-dev\\reports\\stairs25-v1-eval-seed0\\down25.log",
+      "start_utc": "2026-10-19T14:36:48.511099+00:00",
+      "exit_status": 0,
+      "end_utc": "2026-10-19T14:37:54.919282+00:00"
+    }
+  ],
+  "cells": {
+    "flat": {
+      "n": 20,
+      "completed": 20,
+      "clean": 20,
+      "crossed": 20,
+      "invalid": 0,
+      "head_or_body_contact": 0,
+      "completed_wilson95": [
+        0.8388698745050667,
+        1.0
+      ],
+      "reasons": {
+        "completed": 20
+      }
+    },
+    "up10": {
+      "n": 20,
+      "completed": 20,
+      "clean": 20,
+      "crossed": 20,
+      "invalid": 0,
+      "head_or_body_contact": 0,
+      "completed_wilson95": [
+        0.8388698745050667,
+        1.0
+      ],
+      "reasons": {
+        "completed": 20
+      }
+    },
+    "down10": {
+      "n": 20,
+      "completed": 20,
+      "clean": 20,
+      "crossed": 20,
+      "invalid": 0,
+      "head_or_body_contact": 0,
+      "completed_wilson95": [
+        0.8388698745050667,
+        1.0
+      ],
+      "reasons": {
+        "completed": 20
+      }
+    },
+    "up15": {
+      "n": 20,
+      "completed": 20,
+      "clean": 20,
+      "crossed": 20,
+      "invalid": 0,
+      "head_or_body_contact": 0,
+      "completed_wilson95": [
+        0.8388698745050667,
+        1.0
+      ],
+      "reasons": {
+        "completed": 20
+      }
+    },
+    "down15": {
+      "n": 20,
+      "completed": 20,
+      "clean": 20,
+      "crossed": 20,
+      "invalid": 0,
+      "head_or_body_contact": 0,
+      "completed_wilson95": [
+        0.8388698745050667,
+        1.0
+      ],
+      "reasons": {
+        "completed": 20
+      }
+    },
+    "up20": {
+      "n": 20,
+      "completed": 17,
+      "clean": 16,
+      "crossed": 17,
+      "invalid": 0,
+      "head_or_body_contact": 0,
+      "completed_wilson95": [
+        0.6395767041130426,
+        0.9476322080405041
+      ],
+      "reasons": {
+        "completed": 17,
+        "native_base_contact": 3
+      }
+    },
+    "down20": {
+      "n": 20,
+      "completed": 20,
+      "clean": 20,
+      "crossed": 20,
+      "invalid": 0,
+      "head_or_body_contact": 0,
+      "completed_wilson95": [
+        0.8388698745050667,
+        1.0
+      ],
+      "reasons": {
+        "completed": 20
+      }
+    },
+    "up25": {
+      "n": 20,
+      "completed": 9,
+      "clean": 5,
+      "crossed": 9,
+      "invalid": 0,
+      "head_or_body_contact": 3,
+      "completed_wilson95": [
+        0.25819502085709295,
+        0.6579179916924003
+      ],
+      "reasons": {
+        "completed": 9,
+        "native_base_contact": 11
+      }
+    },
+    "down25": {
+      "n": 20,
+      "completed": 18,
+      "clean": 17,
+      "crossed": 18,
+      "invalid": 0,
+      "head_or_body_contact": 0,
+      "completed_wilson95": [
+        0.6989617935882066,
+        0.9721341060158468
+      ],
+      "reasons": {
+        "completed": 18,
+        "tilt": 2
+      }
+    }
+  },
+  "end_utc": "2026-10-19T14:37:54.924314+00:00"
+}

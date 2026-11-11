@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "go2-stairs-baseline"
+version = "0.1.0"
+description = "Proprioceptive Go2 stair baseline components and offline scene validation"
+requires-python = ">=3.11"
+dependencies = ["torch>=2.5", "numpy>=1.26"]
+
+[project.optional-dependencies]
+scene = ["mujoco==3.3.7", "Pillow>=10"]
+train = ["rsl-rl-lib==3.1.2", "tensordict==0.11.0", "PyYAML>=6", "psutil>=5.9"]
+
+[project.scripts]
+go2-stairs-scene = "go2_stairs.mujoco_runner:main"
+go2-stairs-train = "go2_stairs.train:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
